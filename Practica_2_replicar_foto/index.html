@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tarea 2</title>
+</head>
+<body>
+    <header>
+        <h1> Bienvenidos al club fitness</h1>
+    </header>
+    <br>
+    <!-- A partir de aqui comienza form e informacion del miembro-->
+<form>
+    <br>
+    <fieldset>
+        <legend >Información general</legend>
+    
+        <label for="nombre">Nombre completo</label>
+        <input type="text" name="nombre" placeholder="Escribe tu nombre">
+
+    <br><br>
+
+        <label>¿Eres miembro?</label>
+
+    <br><br>
+
+        <input type="radio" value="Miembro" checked>
+        <label for="miembro">Miembro</label>
+        <input type="radio" name="nomiembro">
+        <label for="nomiembro">No miembro</label>
+
+    <br>
+
+        <label for="personalidad">Escribe tu personalidad</label>
+
+    <br>
+
+        <input style="height: 60px;" type="text" name="personalidad" size="60px">
+
+    <br>
+    <br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email">
+
+    <br>
+    <br>
+    </fieldset>
+
+    <label for="instalaciones">Instalaciones</label>
+    <input list="deportes" name="instalaciones" size="10px">
+        <datalist id="deportes">
+            <option value="badminton"></option>
+        </datalist>
+    
+    <br><br>
+
+    <label for="fecha">Selecciona fecha para reservar</label>
+
+    <br>
+
+    <input type="date" value="mm/dd/yyyy" min="2019-01-01" max="2022-07-13">
+    <input type="time" min="02:00" max="20:00">
+
+    <br>
+    
+    <input type="checkbox" name="politicas">
+    <label>Estoy de acuerdo con las politicas del club</label>
+
+    <br><br>
+
+    <button type="submit">ENVIAR</button>
+    
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-tarjeta , .parrafo1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+
+}
+
+h3{
+    background-color: black;
+    width: 150px;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.parrafo2{
+    display: flex;
+    justify-content:flex-start;
+    padding-top: 15px;
+    margin-left: 20px;
+}
+
+.parrafos{
+    order: -1;
+    align-self: flex-start;
+}
+
+div{
+    border: solid 1px black;
+}
